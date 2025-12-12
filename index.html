@@ -566,9 +566,6 @@
         </div>
     </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 인사전략팀 인턴 한세진</p>
-    </footer>
 
     <!-- 식당 추가 모달 -->
     <div id="addModal" class="modal">
@@ -634,12 +631,10 @@
                 "전체": [], // 전체 카테고리는 모든 식당을 포함하도록 초기화 (아래에서 채워짐)
                 "한식": [
                     { name: "초애삼계탕", address: "서울 강서구 마곡동 초애삼계탕", mapLink: "https://naver.me/GpCTzwlc" },
-                    { name: "여가반상", address: "서울 강서구 마곡동 여가반상", mapLink: "https://naver.me/xk1XQLA4" },
                     { name: "오국밥", address: "서울 강서구 마곡동 오국밥", mapLink: "https://naver.me/x67y6M7s" },
                     { name: "한소쿰", address: "서울 강서구 마곡동 한소쿰", mapLink: "https://naver.me/xY4LACRD" },
                     { name: "월수금통돼지김치찌개", address: "서울 강서구 마곡동 월수금통돼지김치찌개", mapLink: "https://naver.me/5pws5EYL" },
                     { name: "꽈리칼국수", address: "서울 강서구 마곡동 꽈리칼국수", mapLink: "https://naver.me/513NweWA" },
-                    { name: "본도시락", address: "서울 강서구 마곡동 본도시락", mapLink: "https://naver.me/FA2fvLXu" },
                     { name: "신의한국수", address: "서울 강서구 마곡동 신의한국수", mapLink: "https://naver.me/FqWtUMi6" },
                     { name: "무한육채미", address: "서울 강서구 마곡동 무한육채미", mapLink: "https://naver.me/xprAkQoT" },
                     { name: "영미당 닭갈비", address: "서울 강서구 마곡동 영미당 닭갈비", mapLink: "https://naver.me/FV7YjMyh" },
@@ -652,71 +647,94 @@
                     { name: "부대옥", address: "서울 강서구 마곡동 부대옥", mapLink: "https://naver.me/FSw7n9GP" },
                     { name: "순대실록", address: "서울 강서구 마곡동 순대실록", mapLink: "https://naver.me/GoD7FW7R" },
                     { name: "설반", address: "서울 강서구 마곡동 설반", mapLink: "https://naver.me/FsRsrZ2M" },
-                    { name: "당산포차 점심뷔페", address: "서울 강서구 마곡동 당산포차 점심뷔페", mapLink: "https://naver.me/GRo4Numf" },
                     { name: "본죽&비빔밥cafe", address: "서울 강서구 마곡동 본죽&비빔밥cafe", mapLink: "https://naver.me/FvEj2Pvq" },
-                    { name: "종로계림닭도리탕원조", address: "서울 강서구 마곡동 종로계림닭도리탕원조", mapLink: "" },
-                    { name: "박가부대", address: "서울 강서구 마곡동 박가부대", mapLink: "https://naver.me/xRhE8QMx" },
                     { name: "전주현대옥", address: "서울 강서구 마곡동 전주현대옥", mapLink: "https://naver.me/5bVsIqBm" },
                     { name: "SO GON", address: "서울 강서구 마곡동 SO GON", mapLink: "https://naver.me/Fk7g0wIk" },
                     { name: "미숯랭", address: "서울 강서구 마곡동 미숯랭", mapLink: "https://naver.me/xa5RTiRU" },             
                     { name: "사위식당", address: "서울 강서구 마곡동 사위식당", mapLink: "https://naver.me/xTT6uHvZ" },
-                    { name: "진마루", address: "서울 강서구 마곡동 진마루", mapLink: "https://naver.me/FeXASwF5" }
+                    { name: "가족회관(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://naver.me/5b0W5aqH"},
+                    { name: "공탕(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://naver.me/5HrvrkCi"},
+                    { name: "동궁찜닭(마곡점)", address: "서울 강서구 마곡중앙2로 5" , mapLink: "https://naver.me/5CW4yqHo"},
+                    { name: "만사부(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://naver.me/5654mMTx"},
+                    { name: "보승회관(마곡역점)", address: "서울 강서구 마곡중앙6로 16" , mapLink: "https://naver.me/5UEcj37G"},
+                    { name: "봉혜자네주방(원그로브점)", address: "서울 강서구 공항대로 165 A동" , mapLink: "https://naver.me/58jZxz7G"},
+                    { name: "사미식당", address: "서울 강서구 마곡중앙4로 22" , mapLink: "https://naver.me/G7V43fro"},
+                    { name: "삼청동샤브(원그로브점)", address: "서울 강서구 공항대로 165 A동" , mapLink: "https://naver.me/5kxEFIEG"},
+                    { name: "솔솥", address: "서울 강서구 마곡중앙6로 42" , mapLink: "https://naver.me/5fIpOrdq"},
+                    { name: "솥툼", address: "서울 강서구 마곡중앙6로 21" , mapLink: "https://naver.me/Fmf6txss"},
+                    { name: "숙성도(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://map.naver.com/p/entry/place/2085918571?placePath=%2Fhome"},
+                    { name: "양촌리직화쭈꾸미", address: "서울 강서구 마곡중앙6로 42" , mapLink: "https://naver.me/xTTPZCMf"},
+                    { name: "오뼈집", address: "서울 강서구 공항대로 219" , mapLink: "https://naver.me/5bVhpT0b"},
+                    { name: "오토김밥", address: "서울 강서구 마곡중앙4로 22" , mapLink: "https://naver.me/5apDkg1D"},
+                    { name: "중앙해장(원그로브점)", address: "서울 강서구 공항대로 165 B동" , mapLink: "https://naver.me/5BcuUcjZ"},
+                    { name: "한우마당", address: "서울 강서구 공항대로 205" , mapLink: "https://naver.me/GPdoj9GB"},
                 ],
                 
                 "분식": [
                     { name: "코코의 식탁", address: "서울 강서구 마곡동 코코의 식탁", mapLink: "https://naver.me/xExkRGwi" },
                     { name: "보영만두", address: "서울 강서구 마곡동 보영만두", mapLink: "https://naver.me/xeAPlmJQ" },
                     { name: "소풍가는날", address: "서울 강서구 마곡동 소풍가는날", mapLink: "https://naver.me/GTnApFau" },
-                    { name: "마곡동소담김밥", address: "서울 강서구 마곡동 마곡동소담김밥", mapLink: "https://naver.me/G0DNRTM1" }
+                    { name: "마곡동소담김밥", address: "서울 강서구 마곡동 마곡동소담김밥", mapLink: "https://naver.me/G0DNRTM1" },
+                    { name: "모모유부(원그로브점)", address: "서울 강서구 공항대로 165 A동", mapLink: "https://naver.me/xDJtHcwt" },
                 ],
                 "일식": [
                     { name: "센몬텐", address: "서울 강서구 마곡동 센몬텐", mapLink: "https://naver.me/5xjpM4pG" },
-                    { name: "찌미오", address: "서울 강서구 마곡동 찌미오", mapLink: "https://naver.me/G65twnCj" },
                     { name: "계단라멘", address: "서울 강서구 마곡동 계단라멘", mapLink: "https://naver.me/GyYb263I" },
                     { name: "화월", address: "서울 강서구 마곡동 화월", mapLink: "https://naver.me/GmbWZAP9" },
-                    { name: "이자카야 하루", address: "서울 강서구 마곡동 이자카야 하루", mapLink: "https://naver.me/xExFMpOY" },
-                    { name: "민영활어공장", address: "서울 강서구 마곡동 민영활어공장", mapLink: "https://naver.me/5Q37Ao9T" },
-                /* { name: "어달스시", address: "서울 강서구 마곡동 어달스시", mapLink: "" },*/
+                    { name: "어달스시", address: "서울 강서구 마곡동 어달스시", mapLink: "" },
                     { name: "오모이", address: "서울 강서구 마곡동 오모이", mapLink: "https://naver.me/54LbRGcD" },
-                    { name: "초이다이닝", address: "서울 강서구 마곡동 초이다이닝", mapLink: "https://naver.me/GvcTOjkI" },
-                    { name: "후라토식당", address: "서울 강서구 마곡동 후라토식당", mapLink: "https://naver.me/xOxHBCzt" }
+                    { name: "마곡초밥", address: "서울 강서구 마곡중앙로 59-11", mapLink: "https://naver.me/5GpoqMNu" },
+                    { name: "마곡카츠", address: "서울 강서구 마곡중앙6로 11", mapLink: "https://naver.me/F3TXj8Th" },
+                    { name: "마츠노하나(원그로브점)", address: "서울 강서구 공항대로 165", mapLink: "https://naver.me/5yWLrz3o" },
+                    { name: "멘지", address: "서울 강서구 공항대로 227" , mapLink: "https://naver.me/FK5vsM5X"},
+                    { name: "모루야", address: "서울 강서구 공항대로 194" , mapLink: "https://naver.me/FG7xdwZj"},
+                    { name: "우미마토", address: "서울 강서구 공항대로 219" , mapLink: "https://naver.me/FY3y0JXy"},
+                    { name: "스시마우", address: "서울 강서구 공항대로 165 A동" , mapLink: "https://naver.me/F3YbvwmK"},
+                    { name: "스시사쿠", address: "서울 강서구 공항대로 227" , mapLink: "https://naver.me/Gpl1Slti"},
+                    { name: "유미카츠", address: "서울 강서구 공항대로 220" , mapLink: "https://naver.me/GgWkAqml"},
                 ],
                 "중식": [
-                    { name: "중식당 청가", address: "서울 강서구 마곡동 중식당 청가", mapLink: "https://naver.me/GQ15puiH" },
-                    { name: "홍콩반점", address: "서울 강서구 마곡동 홍콩반점", mapLink: "https://naver.me/FFGmhkCe" },
                     { name: "짬뽕지존", address: "서울 강서구 마곡동 짬뽕지존", mapLink: "https://naver.me/FK5QcNS2" },
-                    { name: "란콰이펑누들", address: "서울 강서구 마곡동 란콰이펑누들", mapLink: "https://naver.me/FRLN0I9M" }
+                    { name: "란콰이펑누들", address: "서울 강서구 마곡동 란콰이펑누들", mapLink: "https://naver.me/FRLN0I9M" },
+                    { name: "딤딤섬(원그로브점)", address: "서울 강서구 공항대로 165 C동", mapLink: "https://naver.me/FMTmNUyJ" },
+                    { name: "랄라루들(원그로브점)", address: "서울 강서구 공항대로 165 A동", mapLink: "https://naver.me/5pqjaYll" },
+                    { name: "이완미엔(원그로브점)", address: "서울 강서구 공항대로 165 C동", mapLink: "https://naver.me/52crxOjs" },
+                    { name: "지원산시도삭면", address: "서울 강서구 마곡중앙6로 16", mapLink: "https://naver.me/5l7kzcTB" },
+                    { name: "탄탄면공방(원그로브점)", address: "서울 강서구 공항대로 165 B동", mapLink: "https://naver.me/GRu79lQk" },
+                    { name: "페이홍러우(원그로브점)", address: "서울 강서구 공항대로 165 A동", mapLink: "https://naver.me/GKbHkaSE" },
                 ],
                 "양식": [
                     { name: "고릴라쉐프", address: "서울 강서구 마곡동 고릴라쉐프", mapLink: "https://naver.me/xAFCl2CA" },
-                    { name: "버거킹(마곡점/ 마곡원그로브몰D점)", address: "서울 강서구 마곡동 버거킹", mapLink: "" },
+                    { name: "버거킹(마곡점)", address: "서울 강서구 마곡동 버거킹", mapLink: "https://naver.me/GgWkK8Gv" },
                     { name: "헤비스테이크", address: "서울 강서구 마곡동 헤비스테이크", mapLink: "https://naver.me/xKERW8FF" },
-                    { name: "베어스타코", address: "서울 강서구 마곡동 베어스타코", mapLink: "https://naver.me/GfCkFu0C" }
+                    { name: "베어스타코", address: "서울 강서구 마곡동 베어스타코", mapLink: "https://naver.me/GfCkFu0C" },
+                    { name: "고동경양(원그로브점)", address: "서울 공항대로 165 A동", mapLink: "https://naver.me/5wN8ktlK" },
+                    { name: "노브랜드버거(마곡점)", address: "서울 강서구 마곡중앙6로 21", mapLink: "https://naver.me/xQeue3Hl" },
+                    { name: "매드포갈릭(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://naver.me/5Ag73A7N"},
+                    { name: "버거킹(원그로브점)", address: "서울 강서구 공항대로 165" , mapLink: "https://naver.me/FuzGwsRJ"},
+                    { name: "블리스버거", address: "서울 강서구 공항대로 200" , mapLink: "https://naver.me/IFgdntwF"},
+                    { name: "빕스(원그로브점)", address: "서울 강서구 공항대로 165 B동" , mapLink: "https://naver.me/GrmaV0rd"},
+                    { name: "와썹비버거", address: "서울 강서구 마곡중앙로 76" , mapLink: "https://naver.me/Fw7ifIaz"},
+                    { name: "와플샵", address: "서울 강서구 공항대로 165 D동" , mapLink: "https://naver.me/5S9NOuZK"},
+                    { name: "파더스베이글", address: "서울 강서구 마곡중앙4로 22" , mapLink: "https://naver.me/Fuz58tgI"},
+                    { name: "파리바게뜨(마곡역점)", address: "서울 강서구 마곡중앙6로 21" , mapLink: "https://naver.me/xwmsZZEO"},
+                    { name: "파리크라상(원그로브점)", address: "서울 강서구 공항대로 165 B동" , mapLink: "https://naver.me/G022oukb"},
+                    { name: "하우스오브디라이프스타일키친(원그로브점)", address: "서울 강서구 공항대로 165 B동" , mapLink: "https://naver.me/Gmby2Fqu"},
+                    { name: "힐 베이글", address: "서울 강서구 공항대로 195" , mapLink: "https://naver.me/GdymuQCD"},
                 ],
                 "샐러드": [
                     { name: "저스트샐러드", address: "서울 강서구 마곡동 저스트샐러드", mapLink: "https://naver.me/xGIhLV6A" },
                     { name: "올라포케", address: "서울 강서구 마곡동 올라포케", mapLink: "https://naver.me/FQVXPbP2" },                    
                     { name: "샐러디", address: "서울 강서구 마곡동 샐러디", mapLink: "https://naver.me/Fioxx1je" },
                     { name: "훅트포케", address: "서울 강서구 마곡동 훅트포케", mapLink: "https://naver.me/FBeXgiSD" },                    
-                    { name: "샐모닝", address: "서울 강서구 마곡동 샐모닝", mapLink: "https://naver.me/Fio7VcVs" }
+                    { name: "샐모닝", address: "서울 강서구 마곡동 샐모닝", mapLink: "https://naver.me/Fio7VcVs" },
+                    { name: "더롤드", address: "서울 강서구 공항대로 205", mapLink: "https://naver.me/FDnSBEZY" },
+                    { name: "커스텀샐러드", address: "서울 강서구 마곡동로3길 6", mapLink: "https://naver.me/5yPssVEq" },
                 ],
-                "카페": [
-                    { name: "힐 베이글", address: "서울 강서구 마곡동 힐 베이글", mapLink: "https://naver.me/GdymuQCD" },                    
-                    { name: "하우슬리", address: "서울 강서구 마곡동 하우슬리", mapLink: "https://naver.me/5wWeeefo" },
-                    { name: "해리스헤이스", address: "서울 강서구 마곡동 해리스헤이스", mapLink: "https://naver.me/FHlgE8BR" }, 
-                    { name: "시도니아", address: "서울 강서구 마곡동 시도니아", mapLink: "https://naver.me/GCvpZEvn" },
-                    { name: "제이그램", address: "서울 강서구 마곡동 제이그램", mapLink: "https://naver.me/GMmKOzIR" },
-                    { name: "스타벅스(마곡점/마곡GMG점/마곡사이언스타워R점/원그로브B1점)", address: "서울 강서구 마곡동 스타벅스", mapLink: "" },
-                    { name: "파리바게뜨", address: "서울 강서구 마곡동 파리바게뜨", mapLink: "https://naver.me/xwmsZZEO" },
-                    { name: "오지오커피", address: "서울 강서구 마곡동 오지오커피", mapLink: "https://naver.me/GyYbmK4Z" },
-                    { name: "나이스카페인클럽", address: "서울 강서구 마곡동 나이스카페인클럽", mapLink: "https://naver.me/5D8Yv29I" },
-                    { name: "커피사피엔스", address: "서울 강서구 마곡동 커피사피엔스", mapLink: "https://naver.me/FxFKqklm" },
-                    { name: "앤덴커피", address: "서울 강서구 마곡동 앤덴커피", mapLink: "https://naver.me/FK5vnQCx" },
-                    { name: "카페디얼", address: "서울 강서구 마곡동 카페디얼", mapLink: "https://naver.me/FLy7UY7r" },
-                    { name: "로스터리락온", address: "서울 강서구 마곡동 로스터리락온", mapLink: "https://naver.me/xY4MxryG" },
-                    { name: "콜트클럽", address: "서울 강서구 마곡동 콜트클럽", mapLink: "https://naver.me/xwmqyFI6" },
-                    { name: "컴포즈커피", address: "서울 강서구 마곡동 컴포즈커피", mapLink: "https://naver.me/xoH8WkV2" }
+                "아시안": [
+                    { name: "을지깐깐(원그로브점)", address: "서울 강서구 공항대로 165", mapLink: "https://naver.me/xenlPsy3" },
                 ]
+             
             };
 
             // 사용자가 추가/삭제한 식당을 저장할 객체 (카테고리별)
@@ -895,7 +913,7 @@
                 // GSAP를 이용한 애니메이션: 시작점에서 최종점까지 부드럽게 감속
                 gsap.to(slotContentWrapper, {
                     y: finalY,
-                    duration: 4, // 애니메이션 지속 시간
+                    duration: 2, // 애니메이션 지속 시간
                     ease: "power3.out", // 부드러운 감속 효과 (처음엔 빠르고 점점 느려지다 멈춤)
                     onComplete: () => {
                         isSpinning = false;
