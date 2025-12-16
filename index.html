@@ -395,6 +395,23 @@
             flex-shrink: 0;
             margin-top: 20px; /* 룰렛 컨테이너 바로 아래에 오도록 마진 추가 */
         }
+        
+        /* 룰렛 밑 회색 멘트 스타일 */
+        .custom-note {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333; /* 진한 회색 */
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+
+        /* 업데이트 정보 스타일 */
+        .update-info {
+            font-size: 12px;
+            color: #666; /* 옅은 회색으로 작게 표시 */
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
 
         /* Map Button Styles */
         #mapButton {
@@ -568,7 +585,13 @@
     </div>
 
      <footer class="footer">
-        <p>&copy; 2025 인사전략팀 인턴 한세진 / UPDATE 급여후생그룹 인턴 김민영</p>
+        <p class="custom-note">
+        &copy; 2025 인사전략팀 인턴 한세진
+        </p>
+    
+        <p class="update-info">
+            UPDATE 급여후생그룹 인턴 김민영
+        </p>
     </footer>
 
     <!-- 식당 추가 모달 -->
